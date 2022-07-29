@@ -38,11 +38,11 @@ CapsLock & k:: PrefixModifiers("Down", true)
 
 #IfWinActive
 
-CapsLock & i:: PrefixModifiers("Up")
-CapsLock & j:: PrefixModifiers("Left")
-CapsLock & k:: PrefixModifiers("Down")
+CapsLock & k:: PrefixModifiers("Up")
+CapsLock & h:: PrefixModifiers("Left")
+CapsLock & j:: PrefixModifiers("Down")
 CapsLock & l:: PrefixModifiers("Right")
-CapsLock & h:: PrefixModifiers("Home")
+CapsLock & b:: PrefixModifiers("Home")
 CapsLock & n:: PrefixModifiers("End")
 CapsLock & u:: send, {PgUp}
 CapsLock & o:: send, {PgDn}
